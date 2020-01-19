@@ -79,7 +79,7 @@ function random(type){
 }
 let frame = structures[getRandomInt(structures.length)];
 //Line below is for testing purposes only.
-frame = structures[2];
+//frame = structures[2];
 let currentLine = "";
 console.log("");
 let lastINGVerb = "";
