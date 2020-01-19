@@ -90,7 +90,9 @@ def vp():
 def print_poem():
 	print(f"{np()} {vp()}\n{vp()}\n{np()} {vp()}\n{pp()}\n{np()}")
 
-while True:
-	print_poem()
-	time.sleep(5)
-	print('\n\n\n')
+def anthology():
+	for i in range(25):
+		print_poem()
+		print('\n\n\n')
+
+anthology()
