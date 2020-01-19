@@ -3,6 +3,7 @@
 # By number of syllables
 
 import random
+import time
 
 nouns = [
 		'air', 'breath', 'cat', 'ear', 'ray', 'kiss'
@@ -89,4 +90,7 @@ def vp():
 def print_poem():
 	print(f"{np()} {vp()}\n{vp()}\n{np()} {vp()}\n{pp()}\n{np()}")
 
-print_poem()
+while True:
+	print_poem()
+	time.sleep(5)
+	print('\n\n\n')
